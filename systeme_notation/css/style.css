@@ -43,7 +43,8 @@ body {
   width: 20px;
 }
 
-.star:hover, .star-selected {
-    background-position: center;
-    background-image: url(../assets/star-filled.svg);
-  
+.star:hover,
+.star-selected {
+  background-position: center;
+  background-image: url(../assets/star-filled.svg);
+}
