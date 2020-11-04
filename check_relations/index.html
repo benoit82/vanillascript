@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        body {
+            background: url("bg.jpg") no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: 0 auto;
+            width: 450px;
+            border-radius: 5px;
+            overflow: hidden;
+            color: white;
+        }
+
+        textarea {
+            border: 2px solid rgba(109, 109, 109, .1);
+            resize: none;
+        }
+
+        button {
+            margin-top: 10px;
+            border: none;
+            background-color: #2adb24;
+            color: inherit;
+            height: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <textarea name="blabla" id="blabla" cols="30" rows="10"></textarea>
+        <button id="submit">Envoyer</button>
+    </div>
+    <div>
+        <p id="res"></p>
+    </div>
+
+    <script src="js/friendship.js"></script>
+</body>
+
+</html>
