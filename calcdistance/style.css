@@ -18,7 +18,7 @@ main {
 
 .info {
     min-width: 300px;
-    background-color: #bbbbbbbb;
+    background-color: #7a7a7acb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,6 +29,18 @@ main {
 
 .form_grp {
     margin-bottom: 20px;
+}
+
+.form_grp input[type='text']::placeholder {
+    color:#310909;
+}
+.form_grp input[type='text']:focus {
+    border-bottom: 2px solid black;
+}
+.form_grp input[type='text'] {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
 }
 
 .form_grp ul {
