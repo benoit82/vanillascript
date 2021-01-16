@@ -12,28 +12,18 @@
         <div class="form_grp">
           <label for="city1">
             Depart :
-            <input
-              type="text"
-              name="city1"
-              id="city1"
-              onchange="getCities(this)"
-            />
+            <input type="text" name="city1" id="city1" autocomplete="off" />
           </label>
           <ul id="city1_list"></ul>
         </div>
         <div class="form_grp">
           <label for="city2">
             Arrivée :
-            <input
-              type="text"
-              name="city2"
-              id="city2"
-              onchange="getCities(this)"
-            />
+            <input type="text" name="city2" id="city2" autocomplete="off" />
           </label>
           <ul id="city2_list"></ul>
         </div>
-        <button id="calculate" onclick="calc()" disabled>calculer</button>
+        <button id="calculate" disabled>calculer</button>
         <div class="res">
           <p>Distance : <span id="distance"></span></p>
         </div>

@@ -17,11 +17,12 @@ main {
 }
 
 .info {
+    min-width: 300px;
     background-color: #bbbbbbbb;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
     border-radius: 5px;
 }
@@ -38,7 +39,7 @@ main {
     font-size: 1.1rem;
 }
 
-.form_grp ul li:first-child {
+.selected {
     color: whitesmoke;
     background-color:  #350435;
     padding: 3px;
@@ -55,7 +56,13 @@ button {
     font-size: larger;
     font-weight: 500;
     margin-bottom: 20px;
+    transition: transform .5s ease-in;
 }
+
+button:hover:enabled {
+    transform: scale(1.1);
+}
+
 
 #distance {
     font-size: 1.2rem;
